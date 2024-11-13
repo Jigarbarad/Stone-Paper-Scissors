@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Stone Paper Scissor</h1>
+    <hr>
+
+    <button onclick="
+    // const userChoiceMsg = 'you have choosen stone';
+    let randomValue = Math.random() * 3;
+    let computerChoice;
+    if (randomValue > 0  && randomValue <= 1){
+        computerChoice = 'Stone';
+        // console.log('computerChoice is Stone');
+    } else if
+        (randomValue > 1 && randomValue <= 2){
+            computerChoice = 'Scissor';
+            // console.log('computerChoice is Scissor')
+        }
+     else {
+        computerChoice = 'Paper';
+        // console.log('computerChoice is Paper')
+    }
+    computerChoiceMsg =  `Computer choice is ${computerChoice}` ;
+
+    let resultMsg;
+    if(computerChoice === 'Scissor'){
+        resultMsg = 'You Won..' ;
+    } else if(computerChoice === 'Stone'){
+        resultMsg = 'Its Tie' ;
+    } else{
+        resultMsg = 'Computer Won..' ;
+    }
+
+
+    alert(`You have chosen Stone. computer choice is ${computerChoice} and ${resultMsg}`);
+    ">Stone</button>
+
+
+
+    <button onclick="
+    // const userChoiceMsg = 'you have choosen stone';
+    randomValue = Math.random() * 3;
+    computerChoice;
+    if (randomValue > 0  && randomValue <= 1){
+        computerChoice = 'Stone';
+        // console.log('computerChoice is Stone');
+    } else if
+        (randomValue > 1 && randomValue <= 2){
+            computerChoice = 'Scissor';
+            // console.log('computerChoice is Scissor')
+        }
+     else {
+        computerChoice = 'Paper';
+        // console.log('computerChoice is Paper')
+    }
+    computerChoiceMsg =  `Computer choice is ${computerChoice}` ;
+
+     resultMsg;
+    if(computerChoice === 'Scissor'){
+        resultMsg = 'Its Tie' ;
+    } else if(computerChoice === 'Stone'){
+        resultMsg = 'Computer Won' ;
+    } else{
+        resultMsg = 'You Won..' ;
+    }
+
+    alert(`You have chosen Scissor. computer choice is ${computerChoice} and ${resultMsg}`);
+    ">Scissor</button>
+
+
+
+
+    <button onclick="
+    // const userChoiceMsg = 'you have choosen stone';
+    randomValue = Math.random() * 3;
+    computerChoice;
+    if (randomValue > 0  && randomValue <= 1){
+        computerChoice = 'Stone';
+        // console.log('computerChoice is Stone');
+    } else if
+        (randomValue > 1 && randomValue <= 2){
+            computerChoice = 'Scissor';
+            // console.log('computerChoice is Scissor')
+        }
+     else {
+        computerChoice = 'Paper';
+        // console.log('computerChoice is Paper')
+    }
+    computerChoiceMsg =  `Computer choice is ${computerChoice}` ;
+
+    resultMsg;
+    if(computerChoice === 'Scissor'){
+        resultMsg = 'Computer Won.' ;
+    } else if(computerChoice === 'Stone'){
+        resultMsg = 'You won' ;
+    } else{
+        resultMsg = 'Its Tie' ;
+    }
+
+
+    alert(`You have chosen Paper. computer choice is ${computerChoice} and ${resultMsg}`);
+    ">Paper</button>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
